@@ -1,6 +1,7 @@
+import React from "react";
 import { View, Text } from "react-native";
 
-export default function BookingSummaryScreen() {
+const BookingSummaryScreen = () => {
   return (
     <View
       style={{
@@ -9,7 +10,9 @@ export default function BookingSummaryScreen() {
         alignItems: "center",
       }}
     >
-      <Text>Booking Summary</Text>
+      <Text>Booking Summary Screen</Text>
     </View>
   );
-}
+};
+
+export default BookingSummaryScreen;
